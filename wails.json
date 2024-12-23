@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "p2p-sftp",
+  "outputfilename": "p2p-sftp",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev --turbopack",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "James La",
+    "email": "jamesla200210@gmail.com"
+  }
+}
